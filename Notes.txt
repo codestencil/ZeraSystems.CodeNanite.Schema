@@ -1,0 +1,7 @@
+﻿
+Post-Build Action
+-----------------
+copy $(TargetFileName) "D:\Documents\CodeStencil\CodeNanites"
+copy $(TargetFileName) "D:\projects-desktop\Custom Stencils\ZeraSystems.Contoso\src\dll"
+
+/AllowMultiple
