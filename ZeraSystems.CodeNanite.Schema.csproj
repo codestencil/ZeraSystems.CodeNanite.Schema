@@ -32,6 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -141,6 +142,10 @@
     <Compile Include="Tables\GenerateModel.Functions.cs">
       <DependentUpon>GenerateModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Tables\GenerateOnModelCreating.cs" />
+    <Compile Include="Tables\GenerateOnModelCreating.Functions.cs">
+      <DependentUpon>GenerateOnModelCreating.cs</DependentUpon>
+    </Compile>
     <Compile Include="Tables\TableList.cs" />
     <Compile Include="Tables\TableList.Functions.cs">
       <DependentUpon>TableList.cs</DependentUpon>
@@ -163,10 +168,10 @@
       <Version>1.0.2</Version>
     </PackageReference>
     <PackageReference Include="ZeraSystems.CodeNanite.Expansion">
-      <Version>1.3.2.4</Version>
+      <Version>1.3.2.7</Version>
     </PackageReference>
     <PackageReference Include="ZeraSystems.CodeStencil.Contracts">
-      <Version>1.3.0</Version>
+      <Version>1.3.3</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
